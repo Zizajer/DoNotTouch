@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-04-16T22:17:10.901+02:00
-  initializedAtString: 2019-04-16T19:55:53.566+02:00
+  lastUpdatedAtString: 2019-04-16T22:24:30.710+02:00
+  initializedAtString: 2019-04-16T22:24:30.710+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/Zizajer/DoNotTouch.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/Zizajer/DoNotTouch.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/Zizajer/DoNotTouch.git

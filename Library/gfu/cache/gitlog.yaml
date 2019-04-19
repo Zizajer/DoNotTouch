@@ -13,9 +13,207 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-17T13:18:45.084+02:00
-  initializedAtString: 2019-04-17T12:58:51.657+02:00
+  lastUpdatedAtString: 2019-04-19T11:39:42.570+02:00
+  initializedAtString: 2019-04-19T11:39:42.276+02:00
   log:
+  - commitID: 8b202d031b0b6aef681eff457de9b43230d2d18e
+    mergeA: 
+    mergeB: 
+    authorName: Piotr
+    authorEmail: zizi5673@gmail.com
+    commitEmail: zizi5673@gmail.com
+    commitName: Piotr
+    summary: Added collision detection between player and obstacles.
+    description: Added collision detection between player and obstacles.
+    timeString: 2019-04-19T11:39:39.000+02:00
+    commitTimeString: 2019-04-19T11:39:39.000+02:00
+    changes:
+    - path: .vs\DoNotTouchGame\v15\.suo
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\.suo
+      projectPath: .vs\DoNotTouchGame\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: Assets\Scripts\PlayerMovement.cs
+      status: 6
+      staged: 0
+    - path: Assets\Scripts\Player.cs.meta
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs.meta
+      projectPath: Assets\Scripts\Player.cs.meta
+      originalPath: Assets\Scripts\PlayerMovement.cs.meta
+      status: 6
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\747686-mainStage.json
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\SceneView\747686-mainStage.json
+      projectPath: Library\StateCache\SceneView\747686-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: d2576c9200d4feeef56f2d3cb34da384a1d3446c
     mergeA: 
     mergeB: 

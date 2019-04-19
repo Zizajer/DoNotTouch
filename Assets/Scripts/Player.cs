@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Transform BoundaryPositionLeft;
+    public Transform BoundaryPositionRight;
     Transform transform;
     float changePositionValue= 0.1f;
 
@@ -17,17 +19,32 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow)){
-            transform.position = new Vector3(transform.position.x + changePositionValue, transform.position.y, transform.position.z);
+            MovePlayerToPosition(new Vector3(transform.position.x + changePositionValue, transform.position.y, transform.position.z));
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position = new Vector3(transform.position.x - changePositionValue, transform.position.y, transform.position.z);
+            MovePlayerToPosition(new Vector3(transform.position.x - changePositionValue, transform.position.y, transform.position.z));
         }
-        
+
+        for (int i = 0; i < Input.touchCount; i++)
+        {
+            Vector3 touchWorldPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+            MovePlayerToPosition(touchWorldPos);
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
+    }
+
+    public void MovePlayerToPosition(Vector3 position)
+    {
+        Vector3 clampedPlayerPosition = new Vector3(Mathf.Clamp(position.x, BoundaryPositionRight.position.x,BoundaryPositionLeft.position.x)
+                                                                    ,transform.position.y,
+                                                                    transform.position.z);
+
+        transform.position = clampedPlayerPosition;
     }
 }

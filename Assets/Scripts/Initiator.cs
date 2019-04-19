@@ -17,7 +17,7 @@ public class Initiator : MonoBehaviour
 
     private void SpawnObstacle()
     {
-            Instantiate(obstacles[0], transform.position, new Quaternion(0, 0, 0, 0), ObstacleParent);
+            Instantiate(obstacles[0], transform.position, new Quaternion(-ObstacleParent.rotation.x, 0, 0, 0), ObstacleParent);
             Invoke("SpawnObstacle", 5f);
     }
 }

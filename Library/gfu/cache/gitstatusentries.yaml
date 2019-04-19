@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-19T12:40:18.590+02:00
+  lastUpdatedAtString: 2019-04-19T13:31:30.068+02:00
   initializedAtString: 2019-04-19T11:32:54.396+02:00
   entries:
   - path: .vs\DoNotTouchGame\v15\.suo
@@ -28,36 +28,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Materials.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Materials.meta
-    projectPath: Assets\Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Materials\Land.mat
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Materials\Land.mat
-    projectPath: Assets\Materials\Land.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Materials\Land.mat.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Materials\Land.mat.meta
-    projectPath: Assets\Materials\Land.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Materials\Road.mat
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Materials\Road.mat
-    projectPath: Assets\Materials\Road.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Materials\Road.mat.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Materials\Road.mat.meta
-    projectPath: Assets\Materials\Road.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Assets\Prefabs\Obstacle.prefab
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Prefabs\Obstacle.prefab
     projectPath: Assets\Prefabs\Obstacle.prefab
@@ -70,9 +40,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\Player.cs
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
-    projectPath: Assets\Scripts\Player.cs
+  - path: Assets\Scripts\Initiator.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Initiator.cs
+    projectPath: Assets\Scripts\Initiator.cs
     originalPath: 
     status: 3
     staged: 0
@@ -109,18 +79,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
-    projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
     originalPath: 
     status: 3
     staged: 0

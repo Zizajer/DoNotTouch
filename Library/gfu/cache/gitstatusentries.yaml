@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-17T13:16:16.226+02:00
-  initializedAtString: 2019-04-17T12:58:52.269+02:00
+  lastUpdatedAtString: 2019-04-19T11:38:27.656+02:00
+  initializedAtString: 2019-04-19T11:32:54.396+02:00
   entries:
   - path: .vs\DoNotTouchGame\v15\.suo
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\.suo
@@ -25,6 +25,12 @@ MonoBehaviour:
   - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
     projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
     originalPath: 
     status: 3
     staged: 0
@@ -46,17 +52,29 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\Initiator.cs
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Initiator.cs
-    projectPath: Assets\Scripts\Initiator.cs
+  - path: Assets\Scripts\Player.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
+    projectPath: Assets\Scripts\Player.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\Initiator.cs.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Initiator.cs.meta
-    projectPath: Assets\Scripts\Initiator.cs.meta
+  - path: Assets\Scripts\Player.cs.meta
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs.meta
+    projectPath: Assets\Scripts\Player.cs.meta
     originalPath: 
     status: 1
+    staged: 0
+  - path: Assets\Scripts\PlayerMovement.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs
+    projectPath: Assets\Scripts\PlayerMovement.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Scripts\PlayerMovement.cs.meta
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs.meta
+    projectPath: Assets\Scripts\PlayerMovement.cs.meta
+    originalPath: 
+    status: 5
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\assetDatabase3
@@ -67,12 +85,6 @@ MonoBehaviour:
   - path: Library\CurrentLayout.dwlt
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\CurrentLayout.dwlt
     projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\expandedItems
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\expandedItems
-    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -98,7 +110,7 @@ MonoBehaviour:
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gittrackingstatus.yaml
@@ -112,9 +124,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+    projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+    projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
     originalPath: 
     status: 3
     staged: 0
@@ -187,6 +205,12 @@ MonoBehaviour:
   - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
     status: 3
     staged: 0

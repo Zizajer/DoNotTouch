@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     Transform transform;
     float changePositionValue= 0.1f;
@@ -24,5 +24,10 @@ public class PlayerMovement : MonoBehaviour
             transform.position = new Vector3(transform.position.x - changePositionValue, transform.position.y, transform.position.z);
         }
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
     }
 }

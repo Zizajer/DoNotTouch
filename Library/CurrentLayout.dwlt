@@ -16,12 +16,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1366
-    height: 685
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -66,8 +66,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 685
+    width: 1920
+    height: 997
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
@@ -87,7 +87,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -108,8 +108,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 665
-    width: 1366
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -131,12 +131,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1366
-    height: 635
-  m_MinSize: {x: 713, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+    width: 1920
+    height: 947
+  m_MinSize: {x: 711, y: 498}
+  m_MaxSize: {x: 18006, y: 14048}
   vertical: 1
-  controlID: 111
+  controlID: 98
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,12 +156,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 635
-  m_MinSize: {x: 713, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+    width: 1920
+    height: 947
+  m_MinSize: {x: 711, y: 498}
+  m_MaxSize: {x: 18006, y: 14048}
   vertical: 0
-  controlID: 112
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,12 +181,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 853
-    height: 635
-  m_MinSize: {x: 436, y: 498}
-  m_MaxSize: {x: 14006, y: 14048}
+    width: 1199
+    height: 947
+  m_MinSize: {x: 434, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
   vertical: 1
-  controlID: 113
+  controlID: 39
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,12 +206,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 853
-    height: 347
+    width: 1199
+    height: 517
   m_MinSize: {x: 306, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 67
+  controlID: 40
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,8 +229,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 649
-    height: 347
+    width: 912
+    height: 517
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -255,12 +255,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 649
+    x: 912
     y: 0
-    width: 204
-    height: 347
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+    width: 287
+    height: 517
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -284,11 +284,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 347
-    width: 853
-    height: 288
-  m_MinSize: {x: 436, y: 274}
-  m_MaxSize: {x: 14006, y: 10024}
+    y: 517
+    width: 1199
+    height: 430
+  m_MinSize: {x: 434, y: 274}
+  m_MaxSize: {x: 14004, y: 10024}
   vertical: 0
   controlID: 114
 --- !u!114 &13
@@ -308,8 +308,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 614
-    height: 288
+    width: 863
+    height: 430
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
@@ -332,10 +332,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 614
+    x: 863
     y: 0
-    width: 239
-    height: 288
+    width: 336
+    height: 430
   m_MinSize: {x: 234, y: 274}
   m_MaxSize: {x: 10004, y: 10024}
   m_ActualView: {fileID: 22}
@@ -358,12 +358,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 853
+    x: 1199
     y: 0
-    width: 513
-    height: 635
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+    width: 721
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -372,7 +372,7 @@ MonoBehaviour:
   - {fileID: 26}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 4
+  m_LastSelected: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,12 +402,12 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -577,17 +577,112 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 3c6f7f369f6f8b94fae53b61871a12ef
+        - 61c169a95435f5c4a9feb681e3886739
+        - 5a38f8431aaf5434ea87b555f1e08d3f
+        - f7c2084f65df93442a33b7ffc830abc9
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\Player.cs
+          label: Player.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Player.cs
+            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
+            projectPath: Assets\Scripts\Player.cs
+            originalPath: 
+            status: 1
+            staged: 0
       folders:
         keys:
         - .vs
@@ -595,9 +690,19 @@ MonoBehaviour:
         - .vs\DoNotTouchGame\v15
         - .vs\DoNotTouchGame\v15\Server
         - .vs\DoNotTouchGame\v15\Server\sqlite3
+        - Assets
+        - Assets\Scenes
+        - Assets\Scripts
         - Library
         - Library\gfu
         - Library\gfu\cache
+        - Library\metadata
+        - Library\metadata\f7
+        - Library\ScriptAssemblies
+        - Library\StateCache
+        - Library\StateCache\Hierarchy
+        - obj
+        - obj\Debug
         values:
         - path: .vs
           label: .vs
@@ -689,6 +794,60 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -728,6 +887,132 @@ MonoBehaviour:
         - path: Library\gfu\cache
           label: cache
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\f7
+          label: f7
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache
+          label: StateCache
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj
+          label: obj
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj\Debug
+          label: Debug
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -825,6 +1110,24 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: .vs\DoNotTouchGame\v15\.suo
+        label: .suo
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\DoNotTouchGame\v15\.suo
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\.suo
+          projectPath: .vs\DoNotTouchGame\v15\.suo
+          originalPath: 
+          status: 3
+          staged: 0
       - path: .vs\DoNotTouchGame\v15\Server
         label: Server
         level: 3
@@ -861,6 +1164,42 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+        label: storage.ide
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+        label: storage.ide-shm
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+          originalPath: 
+          status: 3
+          staged: 0
       - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
         label: storage.ide-wal
         level: 5
@@ -879,6 +1218,168 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Assembly-CSharp.csproj
+        label: Assembly-CSharp.csproj
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assembly-CSharp.csproj
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\Player.cs
+        label: Player.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scripts\Player.cs.meta
+        label: Player.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Player.cs.meta
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs.meta
+          projectPath: Assets\Scripts\Player.cs.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scripts\PlayerMovement.cs
+        label: PlayerMovement.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerMovement.cs
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs
+          projectPath: Assets\Scripts\PlayerMovement.cs
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Assets\Scripts\PlayerMovement.cs.meta
+        label: PlayerMovement.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerMovement.cs.meta
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs.meta
+          projectPath: Assets\Scripts\PlayerMovement.cs.meta
+          originalPath: 
+          status: 5
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -896,6 +1397,42 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library\assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\assetDatabase3
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\gfu
         label: gfu
@@ -951,6 +1488,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\gfu\cache\gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitlocks.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlocks.yaml
+          projectPath: Library\gfu\cache\gitlocks.yaml
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\gfu\cache\gitlog.yaml
         label: gitlog.yaml
         level: 3
@@ -967,7 +1522,25 @@ MonoBehaviour:
           fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlog.yaml
           projectPath: Library\gfu\cache\gitlog.yaml
           originalPath: 
-          status: 5
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitstatusentries.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
@@ -987,6 +1560,258 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\f7
+        label: f7
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+        label: f7c2084f65df93442a33b7ffc830abc9
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+          projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+        label: f7c2084f65df93442a33b7ffc830abc9.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+          projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        label: Assembly-CSharp.pdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+        label: Assembly-CSharp-Editor-firstpass.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        label: Unity.Analytics.DataPrivacy.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        label: Unity.CollabProxy.Editor.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        label: Unity.PackageManagerUI.Editor.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        label: Unity.TextMeshPro.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        label: Unity.TextMeshPro.Editor.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
         label: shadercompiler-UnityShaderCompiler.exe0.log
         level: 1
@@ -1002,6 +1827,132 @@ MonoBehaviour:
           path: Library\shadercompiler-UnityShaderCompiler.exe0.log
           fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
           projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\StateCache
+        label: StateCache
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+        label: bc2425-mainStage.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj
+        label: obj
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj\Debug
+        label: Debug
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        label: Assembly-CSharp.csprojAssemblyReference.cache
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
           originalPath: 
           status: 3
           staged: 0
@@ -1025,9 +1976,75 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
+    - path: .vs\DoNotTouchGame\v15\.suo
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\.suo
+      projectPath: .vs\DoNotTouchGame\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
     - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
       fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
       projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scripts\Player.cs.meta
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\Player.cs.meta
+      projectPath: Assets\Scripts\Player.cs.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scripts\PlayerMovement.cs
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs
+      projectPath: Assets\Scripts\PlayerMovement.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\PlayerMovement.cs.meta
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Assets\Scripts\PlayerMovement.cs.meta
+      projectPath: Assets\Scripts\PlayerMovement.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
       originalPath: 
       status: 3
       staged: 0
@@ -1037,15 +2054,93 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\gfu\cache\gitlog.yaml
       fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitlog.yaml
       projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
-      status: 5
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
       staged: 0
     - path: Library\gfu\cache\gittrackingstatus.yaml
       fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
       originalPath: 
       status: 3
       staged: 0
@@ -1055,19 +2150,37 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 5 changed files
+    - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 32 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-04-16T22:24:30.710+02:00
+      updatedTimeString: 2019-04-19T11:07:51.159+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-04-17T09:19:01.979+02:00
+      updatedTimeString: 2019-04-19T11:30:41.225+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2019-04-17T09:17:58.900+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
@@ -28070,10 +29183,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2019-04-17T12:42:57.496+02:00
+      updatedTimeString: 2019-04-17T13:16:15.135+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2019-04-17T12:42:54.118+02:00
+      updatedTimeString: 2019-04-17T13:16:14.375+02:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -41237,7 +42350,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/Zizajer/DoNotTouch.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -41250,13 +42363,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-04-17T09:20:19.331+02:00
+    updatedTimeString: 2019-04-17T13:22:46.764+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-04-17T12:42:54.118+02:00
+    updatedTimeString: 2019-04-17T13:22:53.432+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-04-17T12:42:54.036+02:00
+    updatedTimeString: 2019-04-17T13:25:35.015+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -41274,8 +42387,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -41302,9 +42415,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 420
-    width: 612
-    height: 268
+    y: 590
+    width: 861
+    height: 410
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -41337,25 +42450,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 612
-      height: 251
-    m_Scale: {x: 0.3268229, y: 0.3268229}
-    m_Translation: {x: 306, y: 125.5}
+      width: 861
+      height: 393
+    m_Scale: {x: 0.51171875, y: 0.51171875}
+    m_Translation: {x: 430.5, y: 196.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -936.28687
+      x: -841.2825
       y: -384
-      width: 1872.5737
+      width: 1682.565
       height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.3268229
+  m_defaultScale: 0.51171875
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 612, y: 268}
+  m_LastWindowPixelSize: {x: 861, y: 410}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 0
   m_LowResolutionForAspectRatios: 01000001000100000100
@@ -41383,8 +42496,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 647
-    height: 327
+    width: 910
+    height: 497
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 747686de9ece2ef448d9e8281a0248a7
   m_SceneLighting: 1
@@ -41392,9 +42505,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.4725976, y: -1.6559227, z: -13.325512}
+    m_Target: {x: 0, y: 9.98, z: 4.07}
     speed: 2
-    m_Value: {x: 4.4725976, y: -1.6559227, z: -13.325512}
+    m_Value: {x: 0, y: 9.98, z: 4.07}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -41426,9 +42539,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.07778865, y: 0.820028, z: 0.11488288, w: -0.5552521}
   m_Size:
-    m_Target: 35.68382
+    m_Target: 5.7157674
     speed: 2
-    m_Value: 35.68382
+    m_Value: 5.7157674
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -41530,16 +42643,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 649
+    x: 912
     y: 73
-    width: 200
-    height: 327
+    width: 283
+    height: 497
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: f82a0000
+      m_LastClickedID: 11000
       m_ExpandedIDs: b2fbffff062b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -41585,10 +42698,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 614
-    y: 420
-    width: 235
-    height: 268
+    x: 863
+    y: 590
+    width: 332
+    height: 410
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -41601,7 +42714,8 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -41717,10 +42831,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 853
+    x: 1199
     y: 73
-    width: 511
-    height: 615
+    width: 719
+    height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 

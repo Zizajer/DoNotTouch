@@ -12,12 +12,12 @@ public class Initiator : MonoBehaviour
     void Start()
     {
         transform = GetComponent<Transform>();
-        SpawnObstacle();
+        Invoke("SpawnObstacle", Random.Range(2, 10));
     }
 
     private void SpawnObstacle()
     {
             Instantiate(obstacles[0], transform.position, new Quaternion(-ObstacleParent.rotation.x, 0, 0, 0), ObstacleParent);
-            Invoke("SpawnObstacle", 5f);
+            Invoke("SpawnObstacle", Random.Range(2,10));
     }
 }

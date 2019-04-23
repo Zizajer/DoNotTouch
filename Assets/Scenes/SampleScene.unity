@@ -860,7 +860,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717240141}
   m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 0.88, y: 13, z: 8.1}
+  m_LocalPosition: {x: 0.88, y: 14.83, z: 6.36}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -878,8 +878,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c2084f65df93442a33b7ffc830abc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BoundaryPositionLeft: {fileID: 1415635106}
-  BoundaryPositionRight: {fileID: 1970293315}
+  TrackPoints:
+  - {fileID: 1941472694}
+  - {fileID: 2073238706}
+  - {fileID: 1607933237}
+  MoveSpeed: 15
 --- !u!1 &793997655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,8 +1134,6 @@ Transform:
   m_LocalPosition: {x: -5.149519, y: -3.879963, z: 25.38069}
   m_LocalScale: {x: 30, y: 7, z: 30}
   m_Children:
-  - {fileID: 1415635106}
-  - {fileID: 1970293315}
   - {fileID: 906052955}
   m_Father: {fileID: 793997656}
   m_RootOrder: 0
@@ -1471,7 +1472,7 @@ Transform:
   m_Father: {fileID: 793997656}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1415635105
+--- !u!1 &1607933236
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1479,29 +1480,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1415635106}
+  - component: {fileID: 1607933237}
   m_Layer: 0
-  m_Name: BoundaryPointLeft
+  m_Name: TrackPointRight
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1415635106
+--- !u!4 &1607933237
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415635105}
-  m_LocalRotation: {x: 0.12278779, y: -0.1227878, z: -0.6963643, w: 0.6963643}
-  m_LocalPosition: {x: 0.50733334, y: -0.93000025, z: 0.18900001}
-  m_LocalScale: {x: 0.2857143, y: 0.06666667, z: 0.06666666}
+  m_GameObject: {fileID: 1607933236}
+  m_LocalRotation: {x: 0.17364818, y: -0.000000007450581, z: 0.000000059604645, w: 0.98480785}
+  m_LocalPosition: {x: -4.29, y: 15.220001, z: 5.67}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
-  m_Father: {fileID: 921658102}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1970293314
+--- !u!1 &1941472693
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1509,27 +1510,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1970293315}
+  - component: {fileID: 1941472694}
   m_Layer: 0
-  m_Name: BoundaryPointRight
+  m_Name: TrackPointLeft
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1970293315
+--- !u!4 &1941472694
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970293314}
-  m_LocalRotation: {x: 0.12278779, y: -0.1227878, z: -0.6963643, w: 0.6963643}
-  m_LocalPosition: {x: 0.5073334, y: 0.8628568, z: 0.18900001}
-  m_LocalScale: {x: 0.2857143, y: 0.06666667, z: 0.06666666}
+  m_GameObject: {fileID: 1941472693}
+  m_LocalRotation: {x: 0.17364818, y: -0.000000007450581, z: 0.000000059604645, w: 0.98480785}
+  m_LocalPosition: {x: 4.05, y: 15.220001, z: 5.67}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
-  m_Father: {fileID: 921658102}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2073238705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073238706}
+  m_Layer: 0
+  m_Name: TrackPointMiddle
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2073238706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073238705}
+  m_LocalRotation: {x: 0.17364818, y: -0.000000007450581, z: 0.000000059604645, w: 0.98480785}
+  m_LocalPosition: {x: -0.3, y: 15.220001, z: 5.67}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3903879150478916157
 PrefabInstance:

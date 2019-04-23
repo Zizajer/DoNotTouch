@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Transform BoundaryPositionLeft;
-    public Transform BoundaryPositionRight;
+    public Transform[] TrackPoints;
+    int currentTrackPoint = 1;
+    public float MoveSpeed;
     Transform transform;
     Vector3 touchPosition;
     BoxCollider boxCollider;
     float screenWidth;
+    private Vector3 startPos;
+    private float minSwipeDistX = 35f;
 
     float changePositionValue= 0.1f;
 
@@ -17,6 +20,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         transform = GetComponent<Transform>();
+        transform.position = TrackPoints[1].position;
         boxCollider = GetComponent<BoxCollider>();
         screenWidth = Screen.width;
     }
@@ -24,41 +28,62 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int i = 0;
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-            MovePlayerToPosition(new Vector3(transform.position.x + changePositionValue, transform.position.y, transform.position.z));
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+            if (currentTrackPoint > 0) {
+                currentTrackPoint--;
+                transform.position = TrackPoints[currentTrackPoint].position;
+            }
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            MovePlayerToPosition(new Vector3(transform.position.x - changePositionValue, transform.position.y, transform.position.z));
+            if (currentTrackPoint < 2)
+            {
+                currentTrackPoint++;
+                transform.position = TrackPoints[currentTrackPoint].position;
+            }
         }
 
-        //solution 1 TO-DO change for draging object
-        while (i < Input.touchCount)
+        if (Input.touchCount > 0)
         {
-            if(Input.GetTouch(i).position.x > screenWidth / 2) {
-                MovePlayerToPosition(new Vector3(transform.position.x - changePositionValue, transform.position.y, transform.position.z));
-            }
-            if (Input.GetTouch(i).position.x < screenWidth / 2)
+            Touch touch = Input.GetTouch(0);
+
+            switch (touch.phase)
             {
-                MovePlayerToPosition(new Vector3(transform.position.x + changePositionValue, transform.position.y, transform.position.z));
+                case TouchPhase.Began:
+                    startPos = touch.position;
+                    break;
+
+                case TouchPhase.Ended:
+
+                    float swipeDistHorizontal = (new Vector3(touch.position.x, 0, 0) - new Vector3(startPos.x, 0, 0)).magnitude;
+                    if (swipeDistHorizontal > minSwipeDistX)
+                    {
+                        float swipeValue = Mathf.Sign(touch.position.x - startPos.x);
+                        if (swipeValue > 0) //right swipe 
+                        {
+                            if (currentTrackPoint < 2)
+                            {
+                                currentTrackPoint++;
+                                transform.position = TrackPoints[currentTrackPoint].position;
+                            }
+                        }
+                        else if (swipeValue < 0) //left swipe 
+                        {
+                            if (currentTrackPoint > 0)
+                            {
+                                currentTrackPoint--;
+                                transform.position = TrackPoints[currentTrackPoint].position;
+                            }
+                        }
+                    }
+                    break;
             }
-            ++i;
         }
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
     }
-
-    public void MovePlayerToPosition(Vector3 position)
-    {
-        Vector3 clampedPlayerPosition = new Vector3(Mathf.Clamp(position.x, BoundaryPositionRight.position.x,BoundaryPositionLeft.position.x)
-                                                                    ,transform.position.y,
-                                                                    transform.position.z);
-
-        transform.position = clampedPlayerPosition;
-    }
+    
 }

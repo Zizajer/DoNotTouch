@@ -13,30 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-23T14:34:47.950+02:00
+  lastUpdatedAtString: 2019-04-23T14:42:18.632+02:00
   initializedAtString: 2019-04-23T13:51:30.897+02:00
   entries:
   - path: .vs\DoNotTouchGame\v15\.suo
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\.suo
     projectPath: .vs\DoNotTouchGame\v15\.suo
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\.vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\DoNotTouchGame\v15\Server\sqlite3\storage.ide-wal
     originalPath: 
     status: 3
     staged: 0
@@ -55,12 +37,6 @@ MonoBehaviour:
   - path: Library\assetDatabase3
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -94,18 +70,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
     projectPath: Library\metadata\f7\f7c2084f65df93442a33b7ffc830abc9
@@ -124,57 +88,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\SceneView\747686-mainStage.json
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\DoNotTouchGame\Library\StateCache\SceneView\747686-mainStage.json
-    projectPath: Library\StateCache\SceneView\747686-mainStage.json
     originalPath: 
     status: 3
     staged: 0

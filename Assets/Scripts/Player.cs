@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     int currentTrackPoint = 1;
     public float MoveSpeed;
     Transform transform;
+    Rigidbody rigidbody;
     Vector3 touchPosition;
     BoxCollider boxCollider;
     float screenWidth;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
         transform = GetComponent<Transform>();
         transform.position = TrackPoints[1].position;
         boxCollider = GetComponent<BoxCollider>();
+        rigidbody = GetComponent<Rigidbody>();
         screenWidth = Screen.width;
     }
 
@@ -31,7 +33,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
             if (currentTrackPoint > 0) {
                 currentTrackPoint--;
-                transform.position = TrackPoints[currentTrackPoint].position;
+                rigidbody.MovePosition(TrackPoints[currentTrackPoint].position);
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -39,7 +41,7 @@ public class Player : MonoBehaviour
             if (currentTrackPoint < 2)
             {
                 currentTrackPoint++;
-                transform.position = TrackPoints[currentTrackPoint].position;
+                rigidbody.MovePosition(TrackPoints[currentTrackPoint].position);
             }
         }
 
